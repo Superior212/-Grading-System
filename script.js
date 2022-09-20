@@ -13,7 +13,8 @@ function checkGrade() {
  
  if (grade.value =="") {
      
-     grade.value = "INVALID"
+    disp.innerText+= "INVALID"
+    grade.value = "INVALID"
      songInvalid.play()
  }
  else if (grade.value > 0 && grade.value <= 40 ) {
