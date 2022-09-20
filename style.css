@@ -1,0 +1,9 @@
+#displaydiv{
+    border-radius: 50px;
+background: #040a23;
+box-shadow:  0px 20px 70px #0c66fe,
+             -20px -20px 60px #0c66fe;
+
+
+             animation: myAnim 2s ease 0s 1 normal forwards;
+}
